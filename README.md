@@ -1,0 +1,2 @@
+# MySpendings
+Project Web-Tech
