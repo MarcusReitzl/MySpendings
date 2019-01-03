@@ -10,6 +10,9 @@ import { SettingsComponent } from './settings/settings.component';
 import { FinanzComponent } from './finanz/finanz.component';
 import { MainComponent } from './main/main.component';
 import { BookingService } from './booking.service';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { BookingService } from './booking.service';
     StatisticsComponent,
     SettingsComponent,
     FinanzComponent,
-    MainComponent
+    MainComponent,
+    LoginComponent,
+    RegisterComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,

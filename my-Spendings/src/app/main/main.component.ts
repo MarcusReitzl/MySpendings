@@ -8,17 +8,23 @@ import { BookingService } from '../booking.service'
 })
 export class MainComponent implements OnInit {
   
+  kategorie: string [] = [
+    "Lebensmittel",
+    "Reinigungsmaterial"
+
+  ]
+
   constructor( private bookingservice:BookingService) { }
 
   ngOnInit() {
   }
 
-  onAddAusgaben(inputText, inputNumber){
-    this.bookingservice.onAddNew(inputText.value,inputNumber.value, 'Ausgaben');
+  onAddAusgaben(inputText, inputNumber, inputKategorie){
+    this.bookingservice.onAddNew(inputText.value,inputNumber.value, 'Ausgaben', inputKategorie.value);
   };
 
-  onAddEinnahmen(inputText, inputNumber){
-    this.bookingservice.onAddNew(inputText.value,inputNumber.value, 'Einnahmen');
+  onAddEinnahmen(inputText, inputNumber, inputKategorie){
+    this.bookingservice.onAddNew(inputText.value,inputNumber.value, 'Einnahmen', inputKategorie.value);
   };
     
 
