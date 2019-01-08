@@ -7,24 +7,10 @@
     <input type="number" name="" id="" value="0.0" #inputNumber>
     <input type="text" name="" id="" value="Name" #inputText>
 
-    <!-- <div class="col-xs-12">
-        <div class="btn-group" appDropdown>
-          <button 
-          type="button" 
-          class="btn btn-primary dropdown-toggle">
-          Kategorie <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li *ngFor="kat of Kategorie"><a (click)="onAddToShoppingList()" style="cursor: pointer;">{{ kat }}</a></li>
-          
     
-        </ul>
-       
-        </div>
-      </div> -->
 
       <select #inputKategorie>
-        <option *ngFor="let kat of kategorie" [value] = "kat">
+        <option *ngFor="let kat of categorieArray" [value] = "kat">
           {{ kat }}
         </option>
     </select>

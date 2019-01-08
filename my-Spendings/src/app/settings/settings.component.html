@@ -1,3 +1,11 @@
-<p>
-  settings works!
-</p>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <label>Kategorie hinzufügen:</label>
+      <input type="text" #inputKategorie>
+    </div>
+    <div class="col-xs-12">
+      <button (click)="onAddCat(inputKategorie)">Hinzufügen</button>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { BookingService } from '../booking.service'
+import { KategorieService } from '../kategorie.service';
 
 @Component({
   selector: 'app-main',
@@ -7,16 +8,13 @@ import { BookingService } from '../booking.service'
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
-  
-  kategorie: string [] = [
-    "Lebensmittel",
-    "Reinigungsmaterial"
+  categorieArray: string[];
 
-  ]
 
-  constructor( private bookingservice:BookingService) { }
+  constructor( private bookingservice: BookingService, private kategorieservice: KategorieService) { }
 
   ngOnInit() {
+    this.categorieArray = this.kategorieservice.getCategorie();
   }
 
   onAddAusgaben(inputText, inputNumber, inputKategorie){
@@ -26,6 +24,7 @@ export class MainComponent implements OnInit {
   onAddEinnahmen(inputText, inputNumber, inputKategorie){
     this.bookingservice.onAddNew(inputText.value,inputNumber.value, 'Einnahmen', inputKategorie.value);
   };
-    
+  
+ 
 
 }

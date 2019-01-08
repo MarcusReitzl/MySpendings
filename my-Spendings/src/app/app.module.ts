@@ -13,6 +13,7 @@ import { BookingService } from './booking.service';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { DropdownDirective } from './shared/dropdown.directive';
+import { KategorieService } from './kategorie.service';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,7 @@ import { DropdownDirective } from './shared/dropdown.directive';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [BookingService],
+  providers: [BookingService, KategorieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

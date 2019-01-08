@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { KategorieService } from '../kategorie.service';
 
 @Component({
   selector: 'app-settings',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SettingsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private kategorieService: KategorieService) { }
 
   ngOnInit() {
+  }
+  onAddCat(inputKategorie){
+    this.kategorieService.onAddCategorie(inputKategorie.value);
   }
 
 }
