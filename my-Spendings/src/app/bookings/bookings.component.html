@@ -10,7 +10,7 @@
     </div>
     <div class="col-sm-6">
       <label for="">Kategorie: </label>
-      <select #inputKategorie #inputSelKat>
+      <select #inputSelKat>
         <option value = "unselected"> Auswählen </option>
         <option *ngFor="let kat of categorieArray" [value] = "kat">
           {{ kat }}
@@ -21,8 +21,8 @@
 
   <div class="row">
     <div class="col-sm-5">
-      <button (click)="onSetFilter(inputFromDate, inputToDate, inputSelKat)">Set Filter</button>
-      <button (click)="onClearFilter()">Clear Filter</button>
+      <button class="btn btn-primary" (click)="onSetFilter(inputFromDate, inputToDate, inputSelKat)">Set Filter</button>
+      <button class="btn btn-danger" (click)="onClearFilter()">Clear Filter</button>
     </div>
    </div>
   <hr>

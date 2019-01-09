@@ -2,8 +2,9 @@ export class KategorieService{
     
     
     categorie: string [] = [
+    "Diverse",
     "Lebensmittel",
-    "Reinigungsmaterial"
+    "Reinigungsmaterial",
 
   ]
 
@@ -12,7 +13,7 @@ onAddCategorie(inputKategorie){
 }
 
 getCategorie(){
-    return this.categorie.slice();
+    return this.categorie;
 }
   
 }

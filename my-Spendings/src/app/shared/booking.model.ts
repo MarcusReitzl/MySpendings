@@ -13,7 +13,6 @@ export class Booking{
         this.type = type;
         this.kategorie = kategorie;
         this.date = date;
-
-
     }
 }
+

@@ -9,6 +9,7 @@ import { KategorieService } from '../kategorie.service';
 })
 export class MainComponent implements OnInit {
   categorieArray: string[];
+  bookingResponse:string;
 
 
   constructor( private bookingservice: BookingService, private kategorieservice: KategorieService) { }
@@ -19,10 +20,13 @@ export class MainComponent implements OnInit {
 
   onAddAusgaben(inputText, inputNumber, inputKategorie){
     this.bookingservice.onAddNew(inputText.value,inputNumber.value, 'Ausgaben', inputKategorie.value);
+    this.bookingResponse = "Ausgang: " + inputText.value + " mit der Kategorie " + inputKategorie.value + " verbucht."
   };
 
   onAddEinnahmen(inputText, inputNumber, inputKategorie){
     this.bookingservice.onAddNew(inputText.value,inputNumber.value, 'Einnahmen', inputKategorie.value);
+    this.bookingResponse = "Eingang: " + inputText.value + " mit der Kategorie " + inputKategorie.value + " verbucht."
+
   };
   
  

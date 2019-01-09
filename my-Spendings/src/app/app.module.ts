@@ -14,6 +14,22 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { KategorieService } from './kategorie.service';
+import { Routes, RouterModule } from '@angular/router';
+import { KatSettingsComponent } from './settings/kat-settings/kat-settings.component';
+import { BudgetSettingsComponent } from './settings/budget-settings/budget-settings.component';
+import { BudgetComponent } from './settings/budget-settings/budget/budget.component';
+import { BudgetService } from './budget.service';
+
+const appRoutes: Routes = [
+{ path: "", component: MainComponent },
+{ path: "bookings", component: BookingsComponent },
+{ path: "statistics", component: StatisticsComponent },
+{ path: "settings", component: SettingsComponent, children:[
+  { path: "categories", component: KatSettingsComponent },
+  { path: "budgets", component: BudgetSettingsComponent  },
+  { path: "budgets/budget/:id", component: BudgetComponent }
+]}];
+
 
 @NgModule({
   declarations: [
@@ -26,13 +42,18 @@ import { KategorieService } from './kategorie.service';
     MainComponent,
     LoginComponent,
     RegisterComponent,
-    DropdownDirective
+    DropdownDirective,
+    KatSettingsComponent,
+    BudgetSettingsComponent,
+    BudgetComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes)
   ],
-  providers: [BookingService, KategorieService],
+  providers: [BookingService, KategorieService, BudgetService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
