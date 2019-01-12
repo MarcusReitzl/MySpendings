@@ -27,13 +27,16 @@
           <p *ngIf="budgets.length === 0 "> Hier könnte Ihr Budget stehen! </p>
         
         <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-0">
-        <div class="list-group" *ngIf="budgets !== null">
+        
+          <div class="list-group" *ngIf="budgets !== null">
+         
           <a
           [routerLink]="['budget', budget.budgetId]"
           class="list-group-item"
           *ngFor="let budget of budgets">
            {{ budget.budgetName }}
           </a>
+
       </div>
       </div>
     </div>

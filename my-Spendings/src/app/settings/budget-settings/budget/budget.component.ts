@@ -20,6 +20,8 @@ export class BudgetComponent implements OnInit {
     private categorieService:KategorieService) { }
 
   ngOnInit() {  
+      
+      
       this.budget = this.budgetService.getSingleBudget(this.route.snapshot.params['id']);
       this.categories = this.categorieService.getCategorie();       
   }

@@ -17,8 +17,10 @@ export class BudgetSettingsComponent implements OnInit {
   }
 
   onAddBudget(inputName, inputAmount){
-    this.budgetService.onAddBudget(new Budget(this.budgetCounter, inputName.value, inputAmount.value));
-    this.budgetCounter++;
+    this.budgetService.onAddBudget(new Budget(this.budgetService.getCounter(), inputName.value, inputAmount.value));
+    this.budgetService.increaseCounter();
+    
+    
   }
 
 }
