@@ -14,21 +14,16 @@ export class BudgetComponent implements OnInit {
   categories: string[] = [];
   foundFlag: boolean = false;
 
-
-  constructor(private budgetService: BudgetService, 
+  constructor(private budgetService: BudgetService,
     private route: ActivatedRoute, 
     private categorieService:KategorieService) { }
 
-  ngOnInit() {  
-      
-      
+  ngOnInit() {
       this.budget = this.budgetService.getSingleBudget(this.route.snapshot.params['id']);
       this.categories = this.categorieService.getCategorie();       
   }
-  onAddCat(inputCat){
-    
-    
 
+  onAddCat(inputCat){
     if(this.budget.includedCategories.length===0){
       this.budget.includedCategories.push(inputCat.value);
       return
@@ -41,6 +36,11 @@ export class BudgetComponent implements OnInit {
     }
     this.budget.includedCategories.push(inputCat.value);
   }
+
+  onChangeAmount(newAmount) {
+    this.budget.budgetAmount = newAmount.value;
+  }
+
 }
 
 
