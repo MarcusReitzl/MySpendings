@@ -4,10 +4,12 @@
       <label for="">von: </label>
       <input type="date" name="" id="" #inputFromDate>
     </div>
+    
     <div class="col-sm-4">
       <label for="">bis: </label>
       <input type="date" name="" id="" #inputToDate>
     </div>
+
     <div class="col-sm-6">
       <label for="">Kategorie: </label>
       <select #inputSelKat>
@@ -25,9 +27,12 @@
       <button class="btn btn-danger" (click)="onClearFilter()">Clear Filter</button>
     </div>
    </div>
-  <hr>
-  <ng-container *ngIf="showFilter === false">
-  <div class="row" *ngFor="let booking of bookings" [ngStyle]='{color: booking.type === "Einnahmen" ? "green" : "red" }'>
+  
+   <hr>
+  
+   <ng-container *ngIf="showFilter === false">
+  
+    <div class="row" *ngFor="let booking of bookings" [ngStyle]='{color: booking.type === "Einnahmen" ? "green" : "red" }'>
     <div class="col-sm-2"> {{ booking.id }} </div>
     <div class="col-sm-2"> {{ booking.date }} </div>
     <div class="col-sm-2"> {{ booking.text }} </div>
