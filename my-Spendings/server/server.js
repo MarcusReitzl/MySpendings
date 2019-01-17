@@ -14,3 +14,5 @@ db.initDb.then(() => {
     console.log("Listening on port " + cfg.server.port + "...");
   });
 }, () => {console.log("Failed to connect to DB!")});
+
+//test
