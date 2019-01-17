@@ -20,6 +20,7 @@ import { BudgetSettingsComponent } from './settings/budget-settings/budget-setti
 import { BudgetComponent } from './settings/budget-settings/budget/budget.component';
 import { BudgetService } from './budget.service';
 
+
 const appRoutes: Routes = [
 { path: "", component: MainComponent },
 { path: "bookings", component: BookingsComponent },
@@ -46,12 +47,12 @@ const appRoutes: Routes = [
     KatSettingsComponent,
     BudgetSettingsComponent,
     BudgetComponent,
-    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+
   ],
   providers: [BookingService, KategorieService, BudgetService],
   bootstrap: [AppComponent]
