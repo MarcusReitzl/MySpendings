@@ -13,6 +13,7 @@ export class BudgetComponent implements OnInit {
   budget: Budget;
   categories: string[] = [];
   foundFlag: boolean = false;
+  valueChanged: boolean = false;
 
   constructor(private budgetService: BudgetService,
     private route: ActivatedRoute, 
@@ -39,6 +40,7 @@ export class BudgetComponent implements OnInit {
 
   onChangeAmount(newAmount) {
     this.budget.budgetAmount = newAmount.value;
+    this.valueChanged = true;
   }
 
 }
