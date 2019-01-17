@@ -5,6 +5,9 @@ const app = express();
 
 let bodyParser = require('body-parser');
 
+const bookingRoutes = require('./routes/booking');
+
+app.use("/booking", bookingRoutes);
 
 db.initDb.then(() => {
   app.listen(cfg.server.port, () => {
