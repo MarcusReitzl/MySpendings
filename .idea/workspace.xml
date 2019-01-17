@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283ec464-f851-4202-836d-dcf4a1e9571d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/my-Spendings/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-Spendings/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.ts" afterDir="false" />
     </list>
@@ -16,21 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+            <state relative-caret-position="140">
+              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+            <state relative-caret-position="165">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -41,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget-settings.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
+            <state>
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -49,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-Spendings/src/app/shared/budget.model.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -67,8 +67,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/my-Spendings/src/app/shared/budget.model.ts" />
-        <option value="$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.html" />
         <option value="$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.ts" />
+        <option value="$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.html" />
       </list>
     </option>
   </component>
@@ -84,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,58 +96,11 @@
               <item name="MySpendings" type="462c0819:PsiDirectoryNode" />
               <item name="my-Spendings" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MySpendings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpendings" type="462c0819:PsiDirectoryNode" />
-              <item name="my-Spendings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpendings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpendings" type="462c0819:PsiDirectoryNode" />
-              <item name="my-Spendings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpendings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpendings" type="462c0819:PsiDirectoryNode" />
-              <item name="my-Spendings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpendings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpendings" type="462c0819:PsiDirectoryNode" />
-              <item name="my-Spendings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-              <item name="budget-settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpendings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpendings" type="462c0819:PsiDirectoryNode" />
-              <item name="my-Spendings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-              <item name="budget-settings" type="462c0819:PsiDirectoryNode" />
-              <item name="budget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpendings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpendings" type="462c0819:PsiDirectoryNode" />
-              <item name="my-Spendings" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,24 +134,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547378970610</updated>
-      <workItem from="1547378972589" duration="7535000" />
+      <workItem from="1547378972589" duration="8429000" />
+      <workItem from="1547473397776" duration="81000" />
+      <workItem from="1547473578821" duration="1888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7535000" />
+    <option name="totallyTimeSpent" value="10398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24960254" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24244833" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.28419182" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="TypeScript" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -237,6 +190,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -299,7 +266,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget-settings.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
+        <state>
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
@@ -308,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        <state relative-caret-position="140">
+          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -317,16 +294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-Spendings/src/app/settings/budget-settings/budget/budget.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
